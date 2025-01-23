@@ -3,19 +3,14 @@ package test1;
 public class Test {
 
 	public static void main(String[] args) {
+		System.out.println("start\n");		
+		Array_ex array_ex = new Array_ex();
 		
-		StringBuilder str = new StringBuilder();
-		String[] test = {"a", "b" ,"c"};
+		array_ex.test1();
 		
-		for(String n : test) {
-			
-			str.append(n+"님\n");
-			
-		};
+		System.out.println("\nfinished");
+		System.out.println(array_ex.toString());
 		
-		String result = str.toString();
-		System.out.println(result);
-
 	}
 
 }
